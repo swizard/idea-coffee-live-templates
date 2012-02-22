@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templateSet group="CoffeeScript">
+  <template name="log" value="console.log &quot;$name$ is #{$name$}&quot;&#10;" description="console.log" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="completeSmart()" defaultValue="&quot;obj&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="class $HelloWorld$&#10;  constructor: ($name$) -&gt;&#10;    $END$" description="class" toReformat="true" toShortenFQNames="true">
+    <variable name="HelloWorld" expression="" defaultValue="&quot;ClassName&quot;" alwaysStopAt="true" />
+    <variable name="name" expression="" defaultValue="&quot;args&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="fun" value="($args$) -&gt;&#10;  $END$" description="function" toReformat="true" toShortenFQNames="true">
+    <variable name="args" expression="" defaultValue="&quot;args&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for $name$ in $array$&#10;  $END$" description="for array" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="&quot;item&quot;" alwaysStopAt="true" />
+    <variable name="array" expression="firstWord(String)" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="req" value="$sys$ = require '$sys$'" description="require" toReformat="true" toShortenFQNames="true">
+    <variable name="sys" expression="" defaultValue="&quot;sys&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="foro" value="for $key$, $value$ of $Object$&#10;  $END$" description="for object" toReformat="true" toShortenFQNames="true">
+    <variable name="key" expression="" defaultValue="&quot;key&quot;" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="&quot;value&quot;" alwaysStopAt="true" />
+    <variable name="Object" expression="completeSmart()" defaultValue="&quot;obj&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="swi" value="switch $object$&#10;  when $value$&#10;    $END$" description="switch" toReformat="true" toShortenFQNames="true">
+    <variable name="object" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="dele" value="$('$id$').delegate '$click$', (event) =&gt;&#10;  $END$" description="jquery delegate" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="&quot;#id&quot;" alwaysStopAt="true" />
+    <variable name="click" expression="" defaultValue="&quot;click&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="desc" value="describe &quot;$method$&quot;, -&gt;&#10;  $END$" description="describe" toReformat="true" toShortenFQNames="true">
+    <variable name="method" expression="" defaultValue="&quot;method&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="it" value="it &quot;should $sentense$&quot;, -&gt;&#10;  $END$" description="it should" toReformat="true" toShortenFQNames="true">
+    <variable name="sentense" expression="" defaultValue="&quot;be tested&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="aem" value="assert.equal $expected$, $actual$, &quot;err in line $number$&quot;" description="assert.equal" toReformat="true" toShortenFQNames="true">
+    <variable name="expected" expression="" defaultValue="&quot;expected&quot;" alwaysStopAt="true" />
+    <variable name="actual" expression="" defaultValue="&quot;actual&quot;" alwaysStopAt="true" />
+    <variable name="number" expression="lineNumber()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="ae" value="assert.equal $expected$, $actual$" description="assert.equal" toReformat="true" toShortenFQNames="true">
+    <variable name="expected" expression="" defaultValue="&quot;expected&quot;" alwaysStopAt="true" />
+    <variable name="actual" expression="" defaultValue="&quot;actual&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="CSS" value="false" />
+      <option name="JAVA_SCRIPT" value="false" />
+      <option name="JSP" value="false" />
+      <option name="HAML" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
+
