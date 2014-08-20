@@ -7,11 +7,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="cl" value="class $HelloWorld$&#10;  constructor: ($name$) -&gt;&#10;    $END$" description="class" toReformat="true" toShortenFQNames="true">
@@ -22,11 +29,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="fun" value="($args$) -&gt;&#10;  $END$" description="function" toReformat="true" toShortenFQNames="true">
@@ -36,11 +50,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="for" value="for $name$ in $array$&#10;  $END$" description="for array" toReformat="true" toShortenFQNames="true">
@@ -51,11 +72,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="req" value="$sys$ = require '$sys$'" description="require" toReformat="true" toShortenFQNames="true">
@@ -65,11 +93,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="foro" value="for $key$, $value$ of $Object$&#10;  $END$" description="for object" toReformat="true" toShortenFQNames="true">
@@ -81,11 +116,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="swi" value="switch $object$&#10;  when $value$&#10;    $END$" description="switch" toReformat="true" toShortenFQNames="true">
@@ -96,11 +138,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="dele" value="$('$id$').delegate '$click$', (event) =&gt;&#10;  $END$" description="jquery delegate" toReformat="true" toShortenFQNames="true">
@@ -111,11 +160,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="desc" value="describe &quot;$method$&quot;, -&gt;&#10;  $END$" description="describe" toReformat="true" toShortenFQNames="true">
@@ -125,11 +181,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="it" value="it &quot;should $sentense$&quot;, -&gt;&#10;  $END$" description="it should" toReformat="true" toShortenFQNames="true">
@@ -139,11 +202,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="aem" value="assert.equal $expected$, $actual$, &quot;err in line $number$&quot;" description="assert.equal" toReformat="true" toShortenFQNames="true">
@@ -155,11 +225,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
   <template name="ae" value="assert.equal $expected$, $actual$" description="assert.equal" toReformat="true" toShortenFQNames="true">
@@ -170,11 +247,18 @@
       <option name="HTML" value="false" />
       <option name="XSL_TEXT" value="false" />
       <option name="XML" value="false" />
+      <option name="JSP" value="false" />
+      <option name="CSS_PROPERTY_VALUE" value="false" />
+      <option name="CSS_DECLARATION_BLOCK" value="false" />
+      <option name="CSS_RULESET_LIST" value="false" />
       <option name="CSS" value="false" />
       <option name="JAVA_SCRIPT" value="false" />
-      <option name="JSP" value="false" />
+      <option name="TypeScript" value="false" />
+      <option name="DART" value="false" />
+      <option name="CoffeeScript" value="true" />
       <option name="HAML" value="false" />
-      <option name="OTHER" value="true" />
+      <option name="JADE" value="false" />
+      <option name="OTHER" value="false" />
     </context>
   </template>
 </templateSet>
